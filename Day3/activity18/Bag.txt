@@ -1,0 +1,26 @@
+public class Bag{
+Book b;
+ String color;
+ int price;
+void storeBook(){
+b=new Book();
+System.out.println("bag store book");
+}
+void removeBook(){
+b=null;
+System.out.println("bag cannot store book");
+}
+public static void main(String[] args){
+Bag b1=new Bag();
+b1.b.bookTitle="harrypoter";
+b1.b.price=250;
+b1.storeBook();
+b1.b.getBookDetails();
+b1.removeBook();
+
+
+
+}
+
+
+}

@@ -1,0 +1,10 @@
+public class EncapTest1{
+public static void main(String[] args){
+Number n=new Number();
+n.setName("shahanaj");
+n.setId(1);
+System.out.println(n.getName());
+System.out.println(n.getName());
+}
+
+}
